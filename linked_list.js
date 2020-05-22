@@ -38,7 +38,7 @@ c     N
  * }
  */
 ////////java solution//////
-public class Main {
+/*public class Main {
     public void removeDup(Node head){
         if(head==null){
             return;
@@ -63,7 +63,7 @@ public class Main {
     }
 }
 
-
+*/
 ////////javascript solution///////
 var deleteDuplicates = function(head) {
     if(head == null){return head}
@@ -77,4 +77,4 @@ var deleteDuplicates = function(head) {
        else if (current.next.val > currentVal){ currentVal=current.next.val; current=current.next }
     }
    return head 
-};```
+};
